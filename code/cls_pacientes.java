@@ -1,15 +1,15 @@
-public class cls_pasientes {
+public class cls_pacientes {
 
     private String nombreStr; 
     private String idStr;
     private int edadInt;
     private String ContactoStr;
     private String historiaStr;
-    public cls_pasientes(String nombreStr, String idStr, int edadInt, String contactoStr, String historiaStr) {
+    public cls_pacientes(String nombreStr, String idStr, int edadInt, String contactoStr, String historiaStr) {
         this.nombreStr = nombreStr;
         this.idStr = idStr;
         this.edadInt = edadInt;
-        ContactoStr = contactoStr;
+        this.ContactoStr = contactoStr;
         this.historiaStr = historiaStr;
     }
     public String getNombreStr() {
@@ -34,7 +34,7 @@ public class cls_pasientes {
         return ContactoStr;
     }
     public void setContactoStr(String contactoStr) {
-        ContactoStr = contactoStr;
+        this.ContactoStr = contactoStr;
     }
     public String getHistoriaStr() {
         return historiaStr;
